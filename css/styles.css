@@ -1,0 +1,73 @@
+/* universal selector */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}   
+
+/* main container */
+.container {
+border-radius: 5px;    
+width: 350px;
+margin: 10vh auto 0 auto;
+border: 20px solid #313131;
+}
+
+/* main display */
+#display {
+text-align: right;
+height: 100px;
+line-height: 70px;
+padding: 15px 2px;
+font-size: 30px;
+background-color:#bccd95;  
+border: 3px solid black;
+border-radius: 5px;
+margin-bottom: 1px;
+-webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.12);
+box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+/* all buttons */
+.btns {
+display: grid;
+border-left: 1px solid#998;
+border-bottom: 1px solid#998;
+background: #313131;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 0.5rem;
+}
+
+
+.btns > div {
+border-radius: 5px;
+border-top: 1px solid #999;
+border-right: 1px solid#999;
+}
+
+.btn {
+-webkit-box-shadow: -1px 8px 8px 1px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: -1px 8px 8px 1px rgba(0, 0, 0, 0.75);
+box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.75);
+background: #313131;
+color: white;
+line-height: 80px;
+text-align: center;
+font-size: 25px;
+cursor: pointer;
+}
+
+#equal {
+color: white;
+}
+
+/* clear screen */
+#clear {
+background-color: red;
+color: white;
+}
+
+.btn:hover {
+background-color: blue;
+color: white;
+transition: 0.6s ease-in-out;
+}
